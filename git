@@ -1,1 +1,32 @@
-123123123123123123123123123123123123
+#git Commands
+
+
+
+
+git init ------>to intial git in the working directory
+
+git status ----->what is the status of the file whether it is added or commited
+
+git add/rm   -------> it adds/removes git to a cache i.e, staging
+
+git commit -m "<Message>"  ------>git commit to git repo with that message
+
+git remote add origin <URL of git repository> -------> to establish a connection b/w local and git repo
+
+git push origin master ----->to add file from local repo to git repo online
+
+git clone <URL of clone git repository> ------> to clone/download the online git repository
+DIFFERENCE B/W GIT CLONE AND GIT PULL IS CLONE FOR WHOLE CONTENTS PULL ONLY THE RECENTLY UPDATED WILL BE DOWNLOADED 
+git pull <URL of clone git repository> -----> just to stay updated from the git repository
+
+git branch <branch name>  ------>to create a branch
+
+git branch -D <branch name> ------>to delet a branch
+
+git checkout <branch name> ----->to switch to that branch
+
+git log  ----->it shows all the commands exceuted and where the head is located
+
+git stash -----> if you are working in a file and you wanted to switch to another branch and the files will alos be reflecting on your branch also which will create a mess for that we have stash command so that it will make the files invisible and saved later we can pop them.
+
+git stash pop -----> to get back files from the stash

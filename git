@@ -3,11 +3,19 @@
 
 ssh-keygen -t ed25519 -C "kvuttej@gmail.com"  ------> to generate a key pair public and private key for ssh connection
 
+ssh -T git@github.com -----> to validate your git hub
+
 git init ------>to intial git in the working directory
 
 git status ----->what is the status of the file whether it is added or commited
 
 git add/rm   -------> it adds/removes git to a cache i.e, staging
+
+git config --global --edit   ------>to edit the details
+
+git config --global user.name/user.email  ----->to add global username and email-id
+
+git config --list   -----> to check all the details like user name, email, filemode etc..,
 
 git commit -m "<Message>"  ------>git commit to git repo with that message
 
@@ -27,6 +35,27 @@ git checkout <branch name> ----->to switch to that branch
 
 git log  ----->it shows all the commands exceuted and where the head is located
 
+git log --graph --pretty=oneline   ----->log in graphical representation and displays only one line
+
 git stash -----> if you are working in a file and you wanted to switch to another branch and the files will alos be reflecting on your branch also which will create a mess for that we have stash command so that it will make the files invisible and saved later we can pop them.
 
 git stash pop -----> to get back files from the stash
+
+git revert <commit-id> to revert back to a particular point for commit-id we need to do (git logs) from their take the commit-id
+
+git checkout commit-id ---->we can see what are the changes done in the branch at that particular commit-id
+
+git diff <commit-id of one version> <commit-id of second version>  ------->it will show what are the changes done b/w those two commit ids
+
+git diff HEAD .  ----->shows the differnce b/w the latest commited files in head and what is their in local.
+
+git merge <sourcebranch>  ------>the source which you wanted merge with another
+example: git merge feature   -----> if you are on master and you wanted to merge feature branch to master we use this
+
+git mergetool  ---->to resolve merge conflicts manually
+
+git restore --staged <file name>  -------> to unstage
+
+git commit --amend --reset-author   ------>to change the identity
+
+git revert <commit id>    ------>to revert back to the previous version

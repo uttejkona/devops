@@ -1,7 +1,7 @@
 #git Commands
 
 
-ssh-keygen -t ed25519 -C "kvuttej@gmail.com"  ------> to generate a key pair public and private key for ssh connection
+ssh-keygen -t ed25519 -C "<email_id>"  ------> to generate a key pair public and private key for ssh connection
 
 ssh -T git@github.com -----> to validate your git hub
 

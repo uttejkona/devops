@@ -1,3 +1,9 @@
-# test
+# devops_tools_commands
 
-This is a Public Repository with all the major used devops tools commands.
+Trying to build a Public repo of all the majorly used devops tools commands.
+
+include:
+
+Git
+Kubernetes
+Docker

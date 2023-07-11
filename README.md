@@ -7,4 +7,9 @@ include:
 Git
 Kubernetes
 Docker
-Including Terraform Azure resources 
+
+Including Terraform Azure resources blocks
+include
+Vnet
+subnet
+Virtual Machine
